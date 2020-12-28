@@ -15,6 +15,7 @@ val arr:Array[Int]=Array(1,2,2,4,4,8)
     if(left>right){
         return -1
       }
+
     val mid=(left+right)/2;
     if(arr(mid)==findValue){
       mid
